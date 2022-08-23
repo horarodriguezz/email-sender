@@ -4,8 +4,21 @@
   "description": "email sender with templates and list of contacts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/app"
   },
   "author": "Rodriguez Horacio Developer",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horarodriguezz/email-sender.git"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "pino": "^8.4.2",
+    "pino-http": "^8.2.0",
+    "pino-pretty": "^9.0.1"
+  }
 }
